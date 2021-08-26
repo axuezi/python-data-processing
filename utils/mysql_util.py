@@ -18,7 +18,7 @@ class MysqlUtil:
             charset="utf8"
         )
         # 获取数据的游标
-        self.cur = self.conn.cursor()
+        self.cur = self.conn.cursor(pymysql.cursors.DictCursor)
         print(">>>>>>>>数据库链接成功<<<<<<<<")
 
     # 关闭链接

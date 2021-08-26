@@ -7,4 +7,4 @@ baseDir = os.path.dirname(os.path.dirname(__file__))
 config_path = baseDir + "/config/db_config.ini"
 
 # Excel文件
-excel_path = baseDir + "/nhsj.xlsx"
+excel_path = baseDir + "/在租合同能耗数据.xlsx"

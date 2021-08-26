@@ -3,7 +3,7 @@ from config.public_data import excel_path
 from utils.mysql_util import MysqlUtil
 
 workbook = load_workbook(filename=excel_path)
-ws = workbook["1"]
+ws = workbook["Sheet5"]
 
 f = {}
 # 读取全表
