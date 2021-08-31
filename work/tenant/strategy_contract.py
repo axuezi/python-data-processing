@@ -1,8 +1,8 @@
 from openpyxl import load_workbook
-from config.public_data import excel_path
+from config.public_data import excel_tenant_path
 from utils.mysql_util import MysqlUtil
 
-workbook = load_workbook(filename=excel_path)
+workbook = load_workbook(filename=excel_tenant_path)
 ws = workbook["Sheet17"]
 
 db = MysqlUtil()

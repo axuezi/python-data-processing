@@ -35,6 +35,6 @@ if __name__ == '__main__':
         gt['subjectList'][2]['configList'][4]['configInfoList'][1]['price'] = str(one['lg2'])
         gt['subjectList'][2]['configList'][4]['configInfoList'][2]['price'] = str(one['lg3'])
         gt['subjectList'][2]['configList'][5]['configInfoList'][3]['price'] = str(one['lg4'])
-        gt['strategyName'] = '科兴科学院计费策略-' + str(idx)
+        gt['strategyName'] = '科兴科学园计费策略-' + str(idx)
         requests.post(url=url, headers=headers, data=json.dumps(gt))
         idx = idx + 1

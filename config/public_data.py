@@ -6,5 +6,8 @@ baseDir = os.path.dirname(os.path.dirname(__file__))
 # 数据库配置文件绝对路径
 config_path = baseDir + "/config/db_config.ini"
 
-# Excel文件
-excel_path = baseDir + "/在租合同能耗数据.xlsx"
+# 租户Excel文件
+excel_tenant_path = baseDir + "/在租合同能耗数据.xlsx"
+
+# 设备分组数据
+execl_group_path = baseDir + "/分组设备数据.xlsx"

@@ -1,9 +1,9 @@
 from openpyxl import load_workbook
-from config.public_data import excel_path
+from config.public_data import excel_tenant_path
 from utils.mysql_util import MysqlUtil
 from decimal import Decimal
 
-workbook = load_workbook(filename=excel_path)
+workbook = load_workbook(filename=excel_tenant_path)
 ws = workbook["Sheet12"]
 
 db = MysqlUtil()
@@ -24,7 +24,7 @@ def update_select_internal(share_ratio, settlement_ratio, area_code):
 
 
 def select_share_ratio(area_code):
-    # 更新公摊费率
+    # 查询公摊费率
     sql = "select share_ratio from saas_solution_meter_reading.t_rel_contract_area where area_code = '%s'" % area_code
     return db.selectOne(sql)
 
