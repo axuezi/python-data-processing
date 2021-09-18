@@ -1,7 +1,6 @@
 gt = {
     "remark": "",
     "strategyName": "深圳市亿科数字科技有限公司(计费)",
-    "subjectType": "ColdMeter",
     "subjectList": [
         {
             "subjectType": "WaterMeter",

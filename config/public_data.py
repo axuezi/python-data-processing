@@ -11,3 +11,6 @@ excel_tenant_path = baseDir + "/在租合同能耗数据.xlsx"
 
 # 设备分组数据
 execl_group_path = baseDir + "/分组设备数据.xlsx"
+
+# 抄表读书同步
+excel_meter_reading_path = baseDir + "/科兴抄表读数.xlsx"
